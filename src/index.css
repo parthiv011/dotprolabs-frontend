@@ -15,7 +15,7 @@
 
 @layer base {
   body {
-    @apply font-raleway;
+    @apply bg-[#071624] font-raleway;
   }
 
   .hero-ring {

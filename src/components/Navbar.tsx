@@ -3,7 +3,7 @@ import { ButtonWithGradient } from './button-with-gradient';
 export const Navbar = () => {
   const src = '/assets/logo.png';
   return (
-    <header className="flex items-center justify-between">
+    <header className="z-10 flex items-center justify-between">
       <div>
         <img src={`${src}`} alt="Logo" />
       </div>

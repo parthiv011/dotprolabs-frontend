@@ -1,5 +1,4 @@
 import { ChevronDown, PlusIcon } from 'lucide-react';
-import { BackgroundTexture } from '../components/ui/background-texture';
 
 export const FAQs = () => {
   return (

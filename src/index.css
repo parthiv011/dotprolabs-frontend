@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../public/fonts/NeueMachina-Regular.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../public/fonts/Raleway-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply font-raleway;
+  }
+
+  .hero-ring {
+    @apply absolute inset-0 -translate-x-1/2 translate-y-1/2 rounded-full border border-[rgba(72,72,72,0.36)];
+  }
+}

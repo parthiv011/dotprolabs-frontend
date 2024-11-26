@@ -1,8 +1,11 @@
 import { ChevronDown, PlusIcon } from 'lucide-react';
+import { BackgroundTexture } from '../components/ui/background-texture';
 
 export const FAQs = () => {
   return (
-    <div className="mb-44 px-56 py-6">
+    <div className="mb-44 overflow-x-clip px-56 py-6">
+      <BackgroundTexture classname="h-[500px] right-1/2" />
+      {/* <BackgroundTexture classname="h-[500px] w-[500px]" /> */}
       <div className="rounded-[10px] bg-[#F7F9FF05] text-center">
         <h1 className="border-b border-[#BBBBBB1A] px-12 py-6 font-machina text-3xl font-extrabold text-[#E4B40D]">
           FAQs

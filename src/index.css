@@ -12,6 +12,11 @@
   src: url('/fonts/Raleway-Regular.ttf') format('truetype');
   font-style: normal;
 }
+@font-face {
+  font-family: 'Conthrax';
+  src: url('/fonts/Conthrax-SemiBold.otf') format('opentype');
+  font-style: normal;
+}
 
 @layer base {
   body {

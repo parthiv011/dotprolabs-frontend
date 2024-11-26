@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         machina: ['"Neue Machina"', 'sans-serif'],
         raleway: ['Raleway', 'sans-serif'],
+        conthrax: ['Conthrax', 'sans-serif'],
       },
     },
   },
